@@ -1,0 +1,1283 @@
+{
+  "scale": [
+    {
+      "n": 1000,
+      "factor": 0.9,
+      "procedure": "exp",
+      "size": 0.0335
+    },
+    {
+      "n": 1000,
+      "factor": 0.9,
+      "procedure": "renyi_single",
+      "size": 0.03575
+    },
+    {
+      "n": 1000,
+      "factor": 0.9,
+      "procedure": "renyi",
+      "size": 0.0365
+    },
+    {
+      "n": 1000,
+      "factor": 0.9,
+      "procedure": "renyi_deep",
+      "size": 0.0365
+    },
+    {
+      "n": 1000,
+      "factor": 0.9,
+      "procedure": "gumbel",
+      "size": 0.0175
+    },
+    {
+      "n": 1000,
+      "factor": 0.94,
+      "procedure": "exp",
+      "size": 0.03925
+    },
+    {
+      "n": 1000,
+      "factor": 0.94,
+      "procedure": "renyi_single",
+      "size": 0.04125
+    },
+    {
+      "n": 1000,
+      "factor": 0.94,
+      "procedure": "renyi",
+      "size": 0.04225
+    },
+    {
+      "n": 1000,
+      "factor": 0.94,
+      "procedure": "renyi_deep",
+      "size": 0.04225
+    },
+    {
+      "n": 1000,
+      "factor": 0.94,
+      "procedure": "gumbel",
+      "size": 0.0265
+    },
+    {
+      "n": 1000,
+      "factor": 0.97,
+      "procedure": "exp",
+      "size": 0.0425
+    },
+    {
+      "n": 1000,
+      "factor": 0.97,
+      "procedure": "renyi_single",
+      "size": 0.04675
+    },
+    {
+      "n": 1000,
+      "factor": 0.97,
+      "procedure": "renyi",
+      "size": 0.04725
+    },
+    {
+      "n": 1000,
+      "factor": 0.97,
+      "procedure": "renyi_deep",
+      "size": 0.04725
+    },
+    {
+      "n": 1000,
+      "factor": 0.97,
+      "procedure": "gumbel",
+      "size": 0.03975
+    },
+    {
+      "n": 1000,
+      "factor": 1.0,
+      "procedure": "exp",
+      "size": 0.04525
+    },
+    {
+      "n": 1000,
+      "factor": 1.0,
+      "procedure": "renyi_single",
+      "size": 0.0515
+    },
+    {
+      "n": 1000,
+      "factor": 1.0,
+      "procedure": "renyi",
+      "size": 0.0525
+    },
+    {
+      "n": 1000,
+      "factor": 1.0,
+      "procedure": "renyi_deep",
+      "size": 0.0525
+    },
+    {
+      "n": 1000,
+      "factor": 1.0,
+      "procedure": "gumbel",
+      "size": 0.053
+    },
+    {
+      "n": 1000,
+      "factor": 1.03,
+      "procedure": "exp",
+      "size": 0.048
+    },
+    {
+      "n": 1000,
+      "factor": 1.03,
+      "procedure": "renyi_single",
+      "size": 0.05875
+    },
+    {
+      "n": 1000,
+      "factor": 1.03,
+      "procedure": "renyi",
+      "size": 0.06
+    },
+    {
+      "n": 1000,
+      "factor": 1.03,
+      "procedure": "renyi_deep",
+      "size": 0.06
+    },
+    {
+      "n": 1000,
+      "factor": 1.03,
+      "procedure": "gumbel",
+      "size": 0.0715
+    },
+    {
+      "n": 1000,
+      "factor": 1.06,
+      "procedure": "exp",
+      "size": 0.0535
+    },
+    {
+      "n": 1000,
+      "factor": 1.06,
+      "procedure": "renyi_single",
+      "size": 0.0655
+    },
+    {
+      "n": 1000,
+      "factor": 1.06,
+      "procedure": "renyi",
+      "size": 0.06675
+    },
+    {
+      "n": 1000,
+      "factor": 1.06,
+      "procedure": "renyi_deep",
+      "size": 0.06675
+    },
+    {
+      "n": 1000,
+      "factor": 1.06,
+      "procedure": "gumbel",
+      "size": 0.097
+    },
+    {
+      "n": 1000,
+      "factor": 1.1,
+      "procedure": "exp",
+      "size": 0.0595
+    },
+    {
+      "n": 1000,
+      "factor": 1.1,
+      "procedure": "renyi_single",
+      "size": 0.07475
+    },
+    {
+      "n": 1000,
+      "factor": 1.1,
+      "procedure": "renyi",
+      "size": 0.07825
+    },
+    {
+      "n": 1000,
+      "factor": 1.1,
+      "procedure": "renyi_deep",
+      "size": 0.07825
+    },
+    {
+      "n": 1000,
+      "factor": 1.1,
+      "procedure": "gumbel",
+      "size": 0.14475
+    },
+    {
+      "n": 4000,
+      "factor": 0.9,
+      "procedure": "exp",
+      "size": 0.03925
+    },
+    {
+      "n": 4000,
+      "factor": 0.9,
+      "procedure": "renyi_single",
+      "size": 0.03475
+    },
+    {
+      "n": 4000,
+      "factor": 0.9,
+      "procedure": "renyi",
+      "size": 0.0355
+    },
+    {
+      "n": 4000,
+      "factor": 0.9,
+      "procedure": "renyi_deep",
+      "size": 0.0355
+    },
+    {
+      "n": 4000,
+      "factor": 0.9,
+      "procedure": "gumbel",
+      "size": 0.0115
+    },
+    {
+      "n": 4000,
+      "factor": 0.94,
+      "procedure": "exp",
+      "size": 0.045
+    },
+    {
+      "n": 4000,
+      "factor": 0.94,
+      "procedure": "renyi_single",
+      "size": 0.04225
+    },
+    {
+      "n": 4000,
+      "factor": 0.94,
+      "procedure": "renyi",
+      "size": 0.04225
+    },
+    {
+      "n": 4000,
+      "factor": 0.94,
+      "procedure": "renyi_deep",
+      "size": 0.04225
+    },
+    {
+      "n": 4000,
+      "factor": 0.94,
+      "procedure": "gumbel",
+      "size": 0.0225
+    },
+    {
+      "n": 4000,
+      "factor": 0.97,
+      "procedure": "exp",
+      "size": 0.051
+    },
+    {
+      "n": 4000,
+      "factor": 0.97,
+      "procedure": "renyi_single",
+      "size": 0.045
+    },
+    {
+      "n": 4000,
+      "factor": 0.97,
+      "procedure": "renyi",
+      "size": 0.046
+    },
+    {
+      "n": 4000,
+      "factor": 0.97,
+      "procedure": "renyi_deep",
+      "size": 0.046
+    },
+    {
+      "n": 4000,
+      "factor": 0.97,
+      "procedure": "gumbel",
+      "size": 0.03475
+    },
+    {
+      "n": 4000,
+      "factor": 1.0,
+      "procedure": "exp",
+      "size": 0.05525
+    },
+    {
+      "n": 4000,
+      "factor": 1.0,
+      "procedure": "renyi_single",
+      "size": 0.05025
+    },
+    {
+      "n": 4000,
+      "factor": 1.0,
+      "procedure": "renyi",
+      "size": 0.05175
+    },
+    {
+      "n": 4000,
+      "factor": 1.0,
+      "procedure": "renyi_deep",
+      "size": 0.05175
+    },
+    {
+      "n": 4000,
+      "factor": 1.0,
+      "procedure": "gumbel",
+      "size": 0.05275
+    },
+    {
+      "n": 4000,
+      "factor": 1.03,
+      "procedure": "exp",
+      "size": 0.0595
+    },
+    {
+      "n": 4000,
+      "factor": 1.03,
+      "procedure": "renyi_single",
+      "size": 0.0575
+    },
+    {
+      "n": 4000,
+      "factor": 1.03,
+      "procedure": "renyi",
+      "size": 0.057
+    },
+    {
+      "n": 4000,
+      "factor": 1.03,
+      "procedure": "renyi_deep",
+      "size": 0.057
+    },
+    {
+      "n": 4000,
+      "factor": 1.03,
+      "procedure": "gumbel",
+      "size": 0.07575
+    },
+    {
+      "n": 4000,
+      "factor": 1.06,
+      "procedure": "exp",
+      "size": 0.065
+    },
+    {
+      "n": 4000,
+      "factor": 1.06,
+      "procedure": "renyi_single",
+      "size": 0.063
+    },
+    {
+      "n": 4000,
+      "factor": 1.06,
+      "procedure": "renyi",
+      "size": 0.0635
+    },
+    {
+      "n": 4000,
+      "factor": 1.06,
+      "procedure": "renyi_deep",
+      "size": 0.0635
+    },
+    {
+      "n": 4000,
+      "factor": 1.06,
+      "procedure": "gumbel",
+      "size": 0.11325
+    },
+    {
+      "n": 4000,
+      "factor": 1.1,
+      "procedure": "exp",
+      "size": 0.0735
+    },
+    {
+      "n": 4000,
+      "factor": 1.1,
+      "procedure": "renyi_single",
+      "size": 0.07425
+    },
+    {
+      "n": 4000,
+      "factor": 1.1,
+      "procedure": "renyi",
+      "size": 0.07475
+    },
+    {
+      "n": 4000,
+      "factor": 1.1,
+      "procedure": "renyi_deep",
+      "size": 0.07475
+    },
+    {
+      "n": 4000,
+      "factor": 1.1,
+      "procedure": "gumbel",
+      "size": 0.18525
+    },
+    {
+      "n": 16000,
+      "factor": 0.9,
+      "procedure": "exp",
+      "size": 0.03775
+    },
+    {
+      "n": 16000,
+      "factor": 0.9,
+      "procedure": "renyi_single",
+      "size": 0.0335
+    },
+    {
+      "n": 16000,
+      "factor": 0.9,
+      "procedure": "renyi",
+      "size": 0.0335
+    },
+    {
+      "n": 16000,
+      "factor": 0.9,
+      "procedure": "renyi_deep",
+      "size": 0.0335
+    },
+    {
+      "n": 16000,
+      "factor": 0.9,
+      "procedure": "gumbel",
+      "size": 0.0065
+    },
+    {
+      "n": 16000,
+      "factor": 0.94,
+      "procedure": "exp",
+      "size": 0.045
+    },
+    {
+      "n": 16000,
+      "factor": 0.94,
+      "procedure": "renyi_single",
+      "size": 0.04025
+    },
+    {
+      "n": 16000,
+      "factor": 0.94,
+      "procedure": "renyi",
+      "size": 0.03975
+    },
+    {
+      "n": 16000,
+      "factor": 0.94,
+      "procedure": "renyi_deep",
+      "size": 0.03975
+    },
+    {
+      "n": 16000,
+      "factor": 0.94,
+      "procedure": "gumbel",
+      "size": 0.0135
+    },
+    {
+      "n": 16000,
+      "factor": 0.97,
+      "procedure": "exp",
+      "size": 0.04825
+    },
+    {
+      "n": 16000,
+      "factor": 0.97,
+      "procedure": "renyi_single",
+      "size": 0.04525
+    },
+    {
+      "n": 16000,
+      "factor": 0.97,
+      "procedure": "renyi",
+      "size": 0.04525
+    },
+    {
+      "n": 16000,
+      "factor": 0.97,
+      "procedure": "renyi_deep",
+      "size": 0.04525
+    },
+    {
+      "n": 16000,
+      "factor": 0.97,
+      "procedure": "gumbel",
+      "size": 0.03025
+    },
+    {
+      "n": 16000,
+      "factor": 1.0,
+      "procedure": "exp",
+      "size": 0.0545
+    },
+    {
+      "n": 16000,
+      "factor": 1.0,
+      "procedure": "renyi_single",
+      "size": 0.05025
+    },
+    {
+      "n": 16000,
+      "factor": 1.0,
+      "procedure": "renyi",
+      "size": 0.05025
+    },
+    {
+      "n": 16000,
+      "factor": 1.0,
+      "procedure": "renyi_deep",
+      "size": 0.05025
+    },
+    {
+      "n": 16000,
+      "factor": 1.0,
+      "procedure": "gumbel",
+      "size": 0.05075
+    },
+    {
+      "n": 16000,
+      "factor": 1.03,
+      "procedure": "exp",
+      "size": 0.06125
+    },
+    {
+      "n": 16000,
+      "factor": 1.03,
+      "procedure": "renyi_single",
+      "size": 0.0565
+    },
+    {
+      "n": 16000,
+      "factor": 1.03,
+      "procedure": "renyi",
+      "size": 0.05675
+    },
+    {
+      "n": 16000,
+      "factor": 1.03,
+      "procedure": "renyi_deep",
+      "size": 0.05675
+    },
+    {
+      "n": 16000,
+      "factor": 1.03,
+      "procedure": "gumbel",
+      "size": 0.093
+    },
+    {
+      "n": 16000,
+      "factor": 1.06,
+      "procedure": "exp",
+      "size": 0.06575
+    },
+    {
+      "n": 16000,
+      "factor": 1.06,
+      "procedure": "renyi_single",
+      "size": 0.065
+    },
+    {
+      "n": 16000,
+      "factor": 1.06,
+      "procedure": "renyi",
+      "size": 0.06575
+    },
+    {
+      "n": 16000,
+      "factor": 1.06,
+      "procedure": "renyi_deep",
+      "size": 0.06575
+    },
+    {
+      "n": 16000,
+      "factor": 1.06,
+      "procedure": "gumbel",
+      "size": 0.143
+    },
+    {
+      "n": 16000,
+      "factor": 1.1,
+      "procedure": "exp",
+      "size": 0.07325
+    },
+    {
+      "n": 16000,
+      "factor": 1.1,
+      "procedure": "renyi_single",
+      "size": 0.07225
+    },
+    {
+      "n": 16000,
+      "factor": 1.1,
+      "procedure": "renyi",
+      "size": 0.07425
+    },
+    {
+      "n": 16000,
+      "factor": 1.1,
+      "procedure": "renyi_deep",
+      "size": 0.07425
+    },
+    {
+      "n": 16000,
+      "factor": 1.1,
+      "procedure": "gumbel",
+      "size": 0.25325
+    }
+  ],
+  "bandwidth": [
+    {
+      "n": 1000,
+      "gamma": 0.35,
+      "procedure": "exp",
+      "size": 0.142
+    },
+    {
+      "n": 1000,
+      "gamma": 0.35,
+      "procedure": "renyi_single",
+      "size": 0.18775
+    },
+    {
+      "n": 1000,
+      "gamma": 0.35,
+      "procedure": "renyi",
+      "size": 0.1985
+    },
+    {
+      "n": 1000,
+      "gamma": 0.35,
+      "procedure": "renyi_deep",
+      "size": 0.1985
+    },
+    {
+      "n": 1000,
+      "gamma": 0.35,
+      "procedure": "gumbel",
+      "size": 0.39025
+    },
+    {
+      "n": 1000,
+      "gamma": 0.4,
+      "procedure": "exp",
+      "size": 0.09175
+    },
+    {
+      "n": 1000,
+      "gamma": 0.4,
+      "procedure": "renyi_single",
+      "size": 0.11
+    },
+    {
+      "n": 1000,
+      "gamma": 0.4,
+      "procedure": "renyi",
+      "size": 0.11475
+    },
+    {
+      "n": 1000,
+      "gamma": 0.4,
+      "procedure": "renyi_deep",
+      "size": 0.11475
+    },
+    {
+      "n": 1000,
+      "gamma": 0.4,
+      "procedure": "gumbel",
+      "size": 0.1865
+    },
+    {
+      "n": 1000,
+      "gamma": 0.45,
+      "procedure": "exp",
+      "size": 0.06075
+    },
+    {
+      "n": 1000,
+      "gamma": 0.45,
+      "procedure": "renyi_single",
+      "size": 0.07375
+    },
+    {
+      "n": 1000,
+      "gamma": 0.45,
+      "procedure": "renyi",
+      "size": 0.07575
+    },
+    {
+      "n": 1000,
+      "gamma": 0.45,
+      "procedure": "renyi_deep",
+      "size": 0.07575
+    },
+    {
+      "n": 1000,
+      "gamma": 0.45,
+      "procedure": "gumbel",
+      "size": 0.08525
+    },
+    {
+      "n": 1000,
+      "gamma": 0.5,
+      "procedure": "exp",
+      "size": 0.044
+    },
+    {
+      "n": 1000,
+      "gamma": 0.5,
+      "procedure": "renyi_single",
+      "size": 0.05525
+    },
+    {
+      "n": 1000,
+      "gamma": 0.5,
+      "procedure": "renyi",
+      "size": 0.0555
+    },
+    {
+      "n": 1000,
+      "gamma": 0.5,
+      "procedure": "renyi_deep",
+      "size": 0.0555
+    },
+    {
+      "n": 1000,
+      "gamma": 0.5,
+      "procedure": "gumbel",
+      "size": 0.05725
+    },
+    {
+      "n": 1000,
+      "gamma": 0.55,
+      "procedure": "exp",
+      "size": 0.0485
+    },
+    {
+      "n": 1000,
+      "gamma": 0.55,
+      "procedure": "renyi_single",
+      "size": 0.04775
+    },
+    {
+      "n": 1000,
+      "gamma": 0.55,
+      "procedure": "renyi",
+      "size": 0.04925
+    },
+    {
+      "n": 1000,
+      "gamma": 0.55,
+      "procedure": "renyi_deep",
+      "size": 0.04925
+    },
+    {
+      "n": 1000,
+      "gamma": 0.55,
+      "procedure": "gumbel",
+      "size": 0.0395
+    },
+    {
+      "n": 1000,
+      "gamma": 0.6,
+      "procedure": "exp",
+      "size": 0.036
+    },
+    {
+      "n": 1000,
+      "gamma": 0.6,
+      "procedure": "renyi_single",
+      "size": 0.04125
+    },
+    {
+      "n": 1000,
+      "gamma": 0.6,
+      "procedure": "renyi",
+      "size": 0.0425
+    },
+    {
+      "n": 1000,
+      "gamma": 0.6,
+      "procedure": "renyi_deep",
+      "size": 0.0425
+    },
+    {
+      "n": 1000,
+      "gamma": 0.6,
+      "procedure": "gumbel",
+      "size": 0.04075
+    },
+    {
+      "n": 4000,
+      "gamma": 0.35,
+      "procedure": "exp",
+      "size": 0.13225
+    },
+    {
+      "n": 4000,
+      "gamma": 0.35,
+      "procedure": "renyi_single",
+      "size": 0.15525
+    },
+    {
+      "n": 4000,
+      "gamma": 0.35,
+      "procedure": "renyi",
+      "size": 0.1615
+    },
+    {
+      "n": 4000,
+      "gamma": 0.35,
+      "procedure": "renyi_deep",
+      "size": 0.1615
+    },
+    {
+      "n": 4000,
+      "gamma": 0.35,
+      "procedure": "gumbel",
+      "size": 0.371
+    },
+    {
+      "n": 4000,
+      "gamma": 0.4,
+      "procedure": "exp",
+      "size": 0.0815
+    },
+    {
+      "n": 4000,
+      "gamma": 0.4,
+      "procedure": "renyi_single",
+      "size": 0.0905
+    },
+    {
+      "n": 4000,
+      "gamma": 0.4,
+      "procedure": "renyi",
+      "size": 0.093
+    },
+    {
+      "n": 4000,
+      "gamma": 0.4,
+      "procedure": "renyi_deep",
+      "size": 0.093
+    },
+    {
+      "n": 4000,
+      "gamma": 0.4,
+      "procedure": "gumbel",
+      "size": 0.16
+    },
+    {
+      "n": 4000,
+      "gamma": 0.45,
+      "procedure": "exp",
+      "size": 0.06475
+    },
+    {
+      "n": 4000,
+      "gamma": 0.45,
+      "procedure": "renyi_single",
+      "size": 0.06425
+    },
+    {
+      "n": 4000,
+      "gamma": 0.45,
+      "procedure": "renyi",
+      "size": 0.0635
+    },
+    {
+      "n": 4000,
+      "gamma": 0.45,
+      "procedure": "renyi_deep",
+      "size": 0.0635
+    },
+    {
+      "n": 4000,
+      "gamma": 0.45,
+      "procedure": "gumbel",
+      "size": 0.07375
+    },
+    {
+      "n": 4000,
+      "gamma": 0.5,
+      "procedure": "exp",
+      "size": 0.046
+    },
+    {
+      "n": 4000,
+      "gamma": 0.5,
+      "procedure": "renyi_single",
+      "size": 0.0505
+    },
+    {
+      "n": 4000,
+      "gamma": 0.5,
+      "procedure": "renyi",
+      "size": 0.05025
+    },
+    {
+      "n": 4000,
+      "gamma": 0.5,
+      "procedure": "renyi_deep",
+      "size": 0.05025
+    },
+    {
+      "n": 4000,
+      "gamma": 0.5,
+      "procedure": "gumbel",
+      "size": 0.04775
+    },
+    {
+      "n": 4000,
+      "gamma": 0.55,
+      "procedure": "exp",
+      "size": 0.045
+    },
+    {
+      "n": 4000,
+      "gamma": 0.55,
+      "procedure": "renyi_single",
+      "size": 0.04175
+    },
+    {
+      "n": 4000,
+      "gamma": 0.55,
+      "procedure": "renyi",
+      "size": 0.0415
+    },
+    {
+      "n": 4000,
+      "gamma": 0.55,
+      "procedure": "renyi_deep",
+      "size": 0.0415
+    },
+    {
+      "n": 4000,
+      "gamma": 0.55,
+      "procedure": "gumbel",
+      "size": 0.04475
+    },
+    {
+      "n": 4000,
+      "gamma": 0.6,
+      "procedure": "exp",
+      "size": 0.0535
+    },
+    {
+      "n": 4000,
+      "gamma": 0.6,
+      "procedure": "renyi_single",
+      "size": 0.04775
+    },
+    {
+      "n": 4000,
+      "gamma": 0.6,
+      "procedure": "renyi",
+      "size": 0.0505
+    },
+    {
+      "n": 4000,
+      "gamma": 0.6,
+      "procedure": "renyi_deep",
+      "size": 0.0505
+    },
+    {
+      "n": 4000,
+      "gamma": 0.6,
+      "procedure": "gumbel",
+      "size": 0.04875
+    },
+    {
+      "n": 16000,
+      "gamma": 0.35,
+      "procedure": "exp",
+      "size": 0.1115
+    },
+    {
+      "n": 16000,
+      "gamma": 0.35,
+      "procedure": "renyi_single",
+      "size": 0.12575
+    },
+    {
+      "n": 16000,
+      "gamma": 0.35,
+      "procedure": "renyi",
+      "size": 0.13325
+    },
+    {
+      "n": 16000,
+      "gamma": 0.35,
+      "procedure": "renyi_deep",
+      "size": 0.13325
+    },
+    {
+      "n": 16000,
+      "gamma": 0.35,
+      "procedure": "gumbel",
+      "size": 0.336
+    },
+    {
+      "n": 16000,
+      "gamma": 0.4,
+      "procedure": "exp",
+      "size": 0.077
+    },
+    {
+      "n": 16000,
+      "gamma": 0.4,
+      "procedure": "renyi_single",
+      "size": 0.08025
+    },
+    {
+      "n": 16000,
+      "gamma": 0.4,
+      "procedure": "renyi",
+      "size": 0.0805
+    },
+    {
+      "n": 16000,
+      "gamma": 0.4,
+      "procedure": "renyi_deep",
+      "size": 0.0805
+    },
+    {
+      "n": 16000,
+      "gamma": 0.4,
+      "procedure": "gumbel",
+      "size": 0.13025
+    },
+    {
+      "n": 16000,
+      "gamma": 0.45,
+      "procedure": "exp",
+      "size": 0.06025
+    },
+    {
+      "n": 16000,
+      "gamma": 0.45,
+      "procedure": "renyi_single",
+      "size": 0.06075
+    },
+    {
+      "n": 16000,
+      "gamma": 0.45,
+      "procedure": "renyi",
+      "size": 0.06125
+    },
+    {
+      "n": 16000,
+      "gamma": 0.45,
+      "procedure": "renyi_deep",
+      "size": 0.06125
+    },
+    {
+      "n": 16000,
+      "gamma": 0.45,
+      "procedure": "gumbel",
+      "size": 0.0725
+    },
+    {
+      "n": 16000,
+      "gamma": 0.5,
+      "procedure": "exp",
+      "size": 0.0565
+    },
+    {
+      "n": 16000,
+      "gamma": 0.5,
+      "procedure": "renyi_single",
+      "size": 0.05425
+    },
+    {
+      "n": 16000,
+      "gamma": 0.5,
+      "procedure": "renyi",
+      "size": 0.05475
+    },
+    {
+      "n": 16000,
+      "gamma": 0.5,
+      "procedure": "renyi_deep",
+      "size": 0.05475
+    },
+    {
+      "n": 16000,
+      "gamma": 0.5,
+      "procedure": "gumbel",
+      "size": 0.0505
+    },
+    {
+      "n": 16000,
+      "gamma": 0.55,
+      "procedure": "exp",
+      "size": 0.05175
+    },
+    {
+      "n": 16000,
+      "gamma": 0.55,
+      "procedure": "renyi_single",
+      "size": 0.05375
+    },
+    {
+      "n": 16000,
+      "gamma": 0.55,
+      "procedure": "renyi",
+      "size": 0.0545
+    },
+    {
+      "n": 16000,
+      "gamma": 0.55,
+      "procedure": "renyi_deep",
+      "size": 0.0545
+    },
+    {
+      "n": 16000,
+      "gamma": 0.55,
+      "procedure": "gumbel",
+      "size": 0.0575
+    },
+    {
+      "n": 16000,
+      "gamma": 0.6,
+      "procedure": "exp",
+      "size": 0.05925
+    },
+    {
+      "n": 16000,
+      "gamma": 0.6,
+      "procedure": "renyi_single",
+      "size": 0.05075
+    },
+    {
+      "n": 16000,
+      "gamma": 0.6,
+      "procedure": "renyi",
+      "size": 0.05275
+    },
+    {
+      "n": 16000,
+      "gamma": 0.6,
+      "procedure": "renyi_deep",
+      "size": 0.05275
+    },
+    {
+      "n": 16000,
+      "gamma": 0.6,
+      "procedure": "gumbel",
+      "size": 0.06325
+    }
+  ],
+  "slopes": [
+    {
+      "n": 1000,
+      "procedure": "exp",
+      "size_at_low": 0.0335,
+      "size_at_high": 0.0595,
+      "slope": 0.12999999999999992
+    },
+    {
+      "n": 1000,
+      "procedure": "renyi_single",
+      "size_at_low": 0.03575,
+      "size_at_high": 0.07475,
+      "slope": 0.19499999999999992
+    },
+    {
+      "n": 1000,
+      "procedure": "renyi",
+      "size_at_low": 0.0365,
+      "size_at_high": 0.07825,
+      "slope": 0.20874999999999994
+    },
+    {
+      "n": 1000,
+      "procedure": "renyi_deep",
+      "size_at_low": 0.0365,
+      "size_at_high": 0.07825,
+      "slope": 0.20874999999999994
+    },
+    {
+      "n": 1000,
+      "procedure": "gumbel",
+      "size_at_low": 0.0175,
+      "size_at_high": 0.14475,
+      "slope": 0.6362499999999996
+    },
+    {
+      "n": 4000,
+      "procedure": "exp",
+      "size_at_low": 0.03925,
+      "size_at_high": 0.0735,
+      "slope": 0.17124999999999993
+    },
+    {
+      "n": 4000,
+      "procedure": "renyi_single",
+      "size_at_low": 0.03475,
+      "size_at_high": 0.07425,
+      "slope": 0.1974999999999999
+    },
+    {
+      "n": 4000,
+      "procedure": "renyi",
+      "size_at_low": 0.0355,
+      "size_at_high": 0.07475,
+      "slope": 0.19624999999999992
+    },
+    {
+      "n": 4000,
+      "procedure": "renyi_deep",
+      "size_at_low": 0.0355,
+      "size_at_high": 0.07475,
+      "slope": 0.19624999999999992
+    },
+    {
+      "n": 4000,
+      "procedure": "gumbel",
+      "size_at_low": 0.0115,
+      "size_at_high": 0.18525,
+      "slope": 0.8687499999999997
+    },
+    {
+      "n": 16000,
+      "procedure": "exp",
+      "size_at_low": 0.03775,
+      "size_at_high": 0.07325,
+      "slope": 0.17749999999999994
+    },
+    {
+      "n": 16000,
+      "procedure": "renyi_single",
+      "size_at_low": 0.0335,
+      "size_at_high": 0.07225,
+      "slope": 0.1937499999999999
+    },
+    {
+      "n": 16000,
+      "procedure": "renyi",
+      "size_at_low": 0.0335,
+      "size_at_high": 0.07425,
+      "slope": 0.2037499999999999
+    },
+    {
+      "n": 16000,
+      "procedure": "renyi_deep",
+      "size_at_low": 0.0335,
+      "size_at_high": 0.07425,
+      "slope": 0.2037499999999999
+    },
+    {
+      "n": 16000,
+      "procedure": "gumbel",
+      "size_at_low": 0.0065,
+      "size_at_high": 0.25325,
+      "slope": 1.2337499999999995
+    }
+  ]
+}
