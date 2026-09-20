@@ -11,10 +11,8 @@ class HestonParams:
     rho:   float = -0.2    # correlation between the price and variance Brownian motions
     v0:    float =  0.04   # initial variance
 
-
-def simulate_continuous_increments(n, heston, rng=None):
-    # note the following simulates log increments
-    rng = rng or np.random.default_rng()
+def simulate_continuous_increments(n, heston, rng):
+    """Simulate n Heston log-price increments."""
     dt = 1.0 / n
     sqrt_dt = np.sqrt(dt)
 
@@ -32,24 +30,32 @@ def simulate_continuous_increments(n, heston, rng=None):
 
     return continuous
 
-def simulate_continuous_increments_batch(runs, n, heston, rng=None):
-    # same as previous function for running as a batch
-    rng = rng or np.random.default_rng()
+def _simulate_batch(runs, n, heston, rng, keep_variance):
     dt = 1.0 / n
     sqrt_dt = np.sqrt(dt)
 
-    z1 = rng.standard_normal(n)
-    z2 = rng.standard_normal(n)
+    z1 = rng.standard_normal((n, runs))
+    z2 = rng.standard_normal((n, runs))
     w2 = heston.rho * z1 + np.sqrt(1 - heston.rho**2) * z2
 
-    v = np.full(runs, heston.v0)    
-    continuous = np.empty((n,runs))
+    v = np.full(runs, heston.v0)
+    continuous = np.empty((n, runs))
+    true_variance = np.empty((n, runs)) if keep_variance else None
 
     for j in range(n):
         v_pos = np.maximum(v, 0.0)
+        if keep_variance:
+            true_variance[j] = v_pos
         sqrt_v = np.sqrt(v_pos)
         continuous[j] = (heston.mu - 0.5 * v_pos) * dt + sqrt_v * sqrt_dt * w2[j]
         v += heston.kappa * (heston.theta - v_pos) * dt + heston.xi * sqrt_v * sqrt_dt * z1[j]
 
-    return continuous
+    return continuous, true_variance
 
+
+def simulate_continuous_increments_batch(runs, n, heston, rng):
+    return _simulate_batch(runs, n, heston, rng, False)[0]
+
+
+def simulate_continuous_increments_and_variance_batch(runs, n, heston, rng):
+    return _simulate_batch(runs, n, heston, rng, True)
