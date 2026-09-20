@@ -39,35 +39,30 @@ experiments/   what question is being asked. One script per question
 figures/       mirrors experiments/: a script writes into figures/<group>/<script name>/
 ```
 
-What decides where code goes is what it is *about*, never how many callers it has. `simulation/`
-and `runtime/` are independent siblings: neither imports the other, and `experiments/` imports
-both.
-
-Reuse alone never promotes anything into `simulation/`: a sweep driver or a scenario sampler is
-experiment logic even when several scripts want it, and stays duplicated on purpose. No plot
-lives in `simulation/` or `runtime/`, because a figure belongs to the experiment that draws it.
-
 ## Running an experiment
 
-Every script is self-contained: it simulates, plots, and writes its own `.png`, `.json` and `.md`
-report side by side.
+Every script is self-contained: it simulates, plots and writes its own output.
 
 ```bash
 python experiments/thesis/oracle_size_sweep.py --n-values 500 1000 2000 --n-paths 500
 python experiments/presentation/increment_rescaling.py --with-jumps
 ```
 
-`--n-values`, `--n-paths`, `--level`, `--seed`, `--out` and `--from-saved` come from
-`runtime.experiment.parser()` and mean the same everywhere. Anything else is the script's own.
-`--from-saved` redraws from the last run's `.json` without simulating again.
+`--n-values`, `--n-paths`, `--level`, `--seed`, `--out` and `--from-saved` mean the same thing
+in every script. Anything else is that script's own, and `--help` lists it. `--from-saved`
+redraws from the last run's `.json` without simulating again.
 
 `bandwidth_comparison.py` is the one script that simulates nothing. It plots what the two
 bandwidth sweeps measured, so those have to have been run first.
 
 ## What produced what
 
-Keyed by the number **printed in the PDF**, not the LaTeX label behind it. Thesis pages are as
-printed. The front matter is unnumbered, so a viewer's page counter reads 8 higher.
+Find a figure by the number **printed in the PDF**, not the LaTeX label behind it, then run the
+script named beside it. Thesis pages are as printed. The front matter is unnumbered, so a
+viewer's page counter reads 8 higher.
+
+Beside every figure in `figures/` sits the `.md` report of the run that drew it, listing the
+parameters it used, and the `.json` it was drawn from.
 
 ### Thesis figures
 
@@ -97,7 +92,7 @@ The titlepage path is `thesis/titlepage_path.py`, which writes TikZ rather than 
 
 ### Quoted in the prose only
 
-No figure or table points at these, which makes them the easiest to delete by accident.
+Some numbers in the running text come from runs that draw no figure of their own.
 
 | section | page | what is quoted | produced by |
 |---|---|---|---|
@@ -119,7 +114,6 @@ Beamer does not number figures, so these go by slide number and frame title.
 
 The `--with-jumps` flag matters: each of those scripts draws two pictures and the jump-carrying
 one is used. Handout Figure 1 is TikZ inside the handout and comes from nowhere here.
-`experiments/examples/jump_example.py` renders in neither document. It is the worked reference
-for the file shape every script follows.
+`experiments/examples/jump_example.py` is used by neither document.
 
 
