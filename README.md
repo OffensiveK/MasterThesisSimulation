@@ -40,13 +40,8 @@ figures/       mirrors experiments/: a script writes into figures/<group>/<scrip
 ```
 
 What decides where code goes is what it is *about*, never how many callers it has. `simulation/`
-and `runtime/` are independent siblings — neither imports the other, and `experiments/` imports
-both. Two checks enforce that, and both must find nothing:
-
-```bash
-grep -rnE '^[[:space:]]*(from|import)[[:space:]]+simulation' runtime/ --include='*.py'
-grep -rnE '^[[:space:]]*(from|import)[[:space:]]+runtime' simulation/ --include='*.py'
-```
+and `runtime/` are independent siblings: neither imports the other, and `experiments/` imports
+both.
 
 Reuse alone never promotes anything into `simulation/`: a sweep driver or a scenario sampler is
 experiment logic even when several scripts want it, and stays duplicated on purpose. No plot
