@@ -7,9 +7,21 @@ dist/
 .venv/
 venv/
 
-# Generated output
-# keeps figures for easy demonstration. 
-# figures/
-
 # Editor / OS
 .vscode/
+
+# Scratch
+*.log
+*.done
+
+# figures/ is deliberately tracked
+
+# working notes.
+notes/
+
+# playing around with data/double checking
+evaluation/
+
+# code and figures nothing reaches any more, kept on disk rather than deleted.
+# deprecated/README.md says what each one was and why it went.
+deprecated/
